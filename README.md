@@ -31,6 +31,7 @@ TCP & TLS (Secure Web Traffic):
 With 23.221.252.29: The hosts exchanged encrypted application data using TLS v1.2. Following the brief transaction, both ends successfully sent [FIN, ACK] flags to formally tear down the connection cleanly. 
 With 17.253.21.147: The local host initiated a TCP connection using flags [SYN, ECE, CWR] targeting port 443. This was successfully established into a secure TLS v1.3 application data session. 
 ARP (Address Resolution Protocol): The local router gateway (172.23.64.1) successfully broadcasted an ARP reply to map its IP to the virtual MAC address (00:00:5e:00:01:30).
+
 4. Overview of Hosts Involved
 172.23.119.248: The primary local host captured in the logs. Almost all traffic flows either to or from this IP address. 
 142.251.156.119: An external host communicating via UDP. 
